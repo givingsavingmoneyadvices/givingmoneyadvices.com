@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Vigro</title>
+   <link href="style.css" rel="stylesheet">
+    </head>
+<body>
+
+    <script>
+       
+     function input_data(){
+        
+     var data_inputed= document.getElementById("textbox").value;
+     document.getElementById("li1").innerHTML=(data_inputed);
+     document.getElementById("textbox").value=("");
+    
+     
+     };
+    
+     
+
+     
+        
+    </script>
+
+    <h1 id="heading">Welcome</h1>
+ <div class="lmao">
+</div> 
+<button id="button" onclick="input_data()">Add Task</button>
+<button type="button" id="download_btn" >DOWNLOAD</button>
+<input type="text" placeholder="Please Enter" id="textbox">
+
+<div id="notepad">
+    <div class="ul"><ol class="ol"><li id="li1"></li></ol></div>
+    
+ 
+
+
+</div>
+</body>
+</html>

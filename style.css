@@ -1,0 +1,100 @@
+:root{
+  --dark:#374151;
+  --darker:#1f2937;
+  --darkest:#111827;
+  --grey:#6b7280;
+  --pink:#EC4899;
+  --purple:#8B5Cf6;
+
+  }
+body{
+  background-color: var(--dark);
+  display: flex;
+
+}
+h1{
+  color: red;
+  text-align: center;
+  font-size: 100px;
+  position:absolute;
+  top: -80px;
+  right:460px
+
+  
+
+}
+
+#button{
+  size: 19000px;
+  size-adjust: 1900px;
+  font-size: 25px;
+  height:56px;
+  transition-duration: 0.4s;
+  font-family:Rockwell;
+  background-color: black  ;
+  color: blue;
+  border-radius: 4mm;
+  opacity: 50%;  
+  position: absolute;
+  top: 220.5px;
+  right:182.5px;
+  border: 2px solid white;
+
+
+  
+}
+#button:hover{
+  border:2px solid blue ; 
+  opacity: 100;
+  border-radius: 6px;
+}
+/*for textbox */
+
+#textbox{
+ 
+  background-color: var(--darker);
+  font-size: medium;
+  height: 50px;
+  width: -40px;
+  size: 1000px;
+  font-size: 20px;
+  width: 800px;
+  border-radius: 1rem;
+ position: absolute;
+ top:220px;
+ right:296px;
+ size: 30px;  
+ size-adjust: 40px;
+ color: #ffffff;
+}
+
+#download_btn{
+  position: absolute;
+  top: 170px;
+  right:190px;
+  background-color: black;
+  color: green;
+  border: 2px solid white;
+  border-radius: 4px ;
+  font-family:Rockwell; 
+  font-size: 25px;
+  height:38px;
+  opacity: 50%;
+  transition-duration: 0.4s;
+
+}
+#download_btn:hover{
+  border-radius: 8px ;
+  opacity:100% ;
+ border: 2px solid green;}
+#notepad{
+  border:2px solid white;
+ 
+  height: 80px;
+  position: absolute;
+  top: 360px; 
+  right: 210px;
+  width: 900px;
+  background-color: white;
+  border-radius: 5px;
+}
